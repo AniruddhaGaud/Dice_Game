@@ -48,7 +48,12 @@ function App() {
       {gameStarted ? (
         <>
           <Flex justify="flex-end" align="center" mr={20} mt={10}>
-            <Button bg="black" color="white" _hover={{ bg: "grey" }}>
+            <Button
+              bg="black"
+              color="white"
+              _hover={{ bg: "grey" }}
+              onClick={() => setGameStarted(false)}
+            >
               Home
             </Button>
           </Flex>
