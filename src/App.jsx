@@ -54,7 +54,7 @@ function App() {
               _hover={{ bg: "grey" }}
               onClick={() => setGameStarted(false)}
             >
-              Home
+              Back
             </Button>
           </Flex>
           <Stack
